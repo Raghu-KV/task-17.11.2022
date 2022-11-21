@@ -5,9 +5,46 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: skyblue;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.my-fontSize{
+  font-size: 15px;
+  font-weight: 400;
+}
+.my-btn{
+  width: 100%;
+  border-radius: 25px;
+  padding: 8px;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+}
+.my-border{
+  border-radius: 15px;
+}
+.my-height{
+  height: 100vh;
+}
+.my-padding{
+  padding: 13px;
+}
+.my-dull{
+  color: rgba(128, 128, 128, 0.692);
+}
+
+.my-hover{
+  margin-bottom: 0px;
+  box-shadow: 1px 0.5px 10px rgba(3, 3, 3, 0.192);
+  transition: 200ms linear;
+}
+.my-hover:hover{
+  margin-bottom: 10px;
+  box-shadow: 1px 1.5px 10px rgba(3, 3, 3, 0.479);
+}
+.my-ltr{
+  letter-spacing: 1.5px;
 }
