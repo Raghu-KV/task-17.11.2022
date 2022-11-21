@@ -1,6 +1,6 @@
 function PriceCard({ plan, price, content, notValid }) {
   return (
-    <div className="col-4">
+    <div className="col-sm-12 col-md-4 mb-4 mt-4">
       <div className="card bg-light p-3 my-border border-0 my-hover">
         <div className="text-center border-bottom border-secondary">
           <h6 className="text-secondary my-ltr">{plan}</h6>

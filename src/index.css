@@ -48,3 +48,10 @@ code {
 .my-ltr{
   letter-spacing: 1.5px;
 }
+
+@media (max-width: 768px) {
+  .my-height{
+    height: auto;
+  }
+  
+}
